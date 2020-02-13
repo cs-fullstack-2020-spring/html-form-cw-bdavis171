@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>User Registration Form</h1>
+    <div class="container">
+        <form action="" id="user_reg">
+            <h3 id="please">Please Enter Your Information:</h3>
+            <p id="entries">Entries with '*' are required</p>
+            <label for="first" id="first_name">First Name <span>*</span>:</label>
+            <input type="text" id="first" required>
+            <label for="last" id="last_name">Last Name <span>*</span>:</label>
+            <input type="text" id="last" required>
+            <label for="email" id="eml">Email <span>*</span>:</label>
+            <input type="email" id="email" required>
+            <label for="pass" id="password">Password <span>*</span>:</label>
+            <input type="password" id="pass" required>
+            <label for="male" id="mle">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female" id="fmle">Female</label>
+            <input type="radio" id="female" name="gender">
+            <label for="prefer" id="pnts">Prefer not to say</label>
+            <input type="radio" id="prefer" name="gender">
+            
+            <label for="birth" id="birthday">Birthday:</label>
+            <input type="date" id="birth">
+            <input type="checkbox" id="agree" required>
+            <label for="agree" id="tos">I agree to terms and conditions</label>
+            <input type="submit" id="submit" value="Submit Registation">
+        </form>
+    </div>
+</body>
+
+</html>
